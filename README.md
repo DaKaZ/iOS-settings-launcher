@@ -3,7 +3,7 @@
 This is a simple Titanium module built for launching any of the settings URLs from your app.
 In iOS < 10, you used to be able to call a simple command:
 
-##JavaScript:
+
     Ti.Platform.openURL('prefs:root=WIFI');
 
 But in iOS 10, you need to use a workspace and the URL changes to "Prefs:".
@@ -12,12 +12,11 @@ This module takes care of all that magic for you, you just have to pass in the p
 
 ####Usage:
 
-##JavaScript:
-    var iosSettings = require('com.titanium.iossettingslauncher');
+    var iosSettings = require('com.kaztopia.settingslauncher');
     iosSettings.launchSettingsWithPath("root=WIFI");
 
 
-Paths available:
+####Paths available:
 
 | Command | Description |
 | --- | --- |
