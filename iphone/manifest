@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: armv7 arm64 i386 x86_64
+description: settingslauncher
+author: Mike Kazmier
+license: Apache 2.0
+copyright: Copyright (c) 2016 by Kazinc, LLC
+
+# these should not be edited
+name: settingslauncher
+moduleid: com.kaztopia.settingslauncher
+guid: f7af8fec-65cd-4135-b9a0-cd3ab684220a
+platform: iphone
+minsdk: 5.4.0.GA
